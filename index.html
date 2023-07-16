@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <header>
+       <h1>Todos</h1>
+       <input autofocus = "text" placeholder="What needs to be done?">
+    </header>
+    <section>
+      <input id="toggle-all" type = "checkbox" checked="false">
+      <label for = "toggle-all">Mark all as completed</label>
+    <ol>
+        <li>
+          <div> 
+              <input type = "checkbox">
+              <label>Todo Item </label>
+              <button>Remove Todo Items</button>
+          </div>
+        </li>
+    </ol>
+    <!-- <input type="text" placeholder="Exiting todo to edit"> -->
+    </section>
+    <footer>
+        <span>
+          <strong>1</strong>
+          <span> item(s) left </span>
+        </span>
+            <ul>
+              <li>
+                  <a href = "#/all">All</a>
+              </li>
+              <li>
+                  <a href = "#/active">Active</a>
+              </li>
+              <li>
+                  <a href = "#/completed">Completed</a>
+              </li>
+            </ul>
+        <button>Clear Completed todo items </button> 
+    </footer>   
+</body>
+</html>
